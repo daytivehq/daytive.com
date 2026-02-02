@@ -1,0 +1,70 @@
+/* 게시글 본문 너비 설정 */
+.article-content {
+  max-width: 80% !important;
+  margin: 0 auto;
+}
+
+
+/*로고 사이즈 수정*/
+.logo {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+/* 헤더 타이틀 스타일 */
+.main-menu > a.text-base {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #4F39F6
+}
+
+/* Pretendard 폰트 */
+@font-face {
+  font-family: 'Pretendard Variable';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
+html {
+  font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+.bg-keyword-back {
+  background-color: #EEF2FF;
+}
+.text-keyword-text {
+  color: #4F39F6;
+}
+
+/* 커스텀 폰트 사이즈 */
+.text-5xl {
+  font-size: 3rem;
+}
+.text-6xl {
+  font-size: 3.75rem;
+}
+.text-7xl {
+  font-size: 4.5rem;
+}
+
+/* 커스텀 줄 간격 */
+.leading-none {
+  line-height: 1;
+}
+.leading-tight {
+  line-height: 1.25;
+}
+.leading-snug {
+  line-height: 1.375;
+}
+.leading-normal {
+  line-height: 1.5;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
+.leading-loose {
+  line-height: 2;
+}

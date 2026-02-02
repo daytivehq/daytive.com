@@ -1,0 +1,22 @@
+languageCode = "ko"
+languageName = "Korean"
+weight = 10
+title = "Daytive"
+
+[params]
+  displayName = "Korean"
+  isoCode = "ko"
+  rtl = false
+  dateFormat = "2006-01-02 (Mon)"
+  description = "하루하루가 모여 인생이 됩니다. 매일을 더 의미있게 만드는 도구를 만듭니다."
+
+[params.author]
+  name = "GOODJINC" # 작가명
+  email = "contact@daytive.com" # 작가 이메일
+  image = "img/author.jpg" # 작가 프로필 이미지
+  headline = "1%의 당신으로부터"
+  bio = "1%의 당신으로부터"
+  links = [
+    { email = "mailto:contact@daytive.com" },
+    { github = "https://github.com/daytivehq" },
+  ]
